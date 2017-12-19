@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         Double con=Double.parseDouble(nummm.getText().toString());
         Double val= con * 4;
-        Toast.makeText(this, String.format("%.2f",val), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"ans:" +  String.format("%.2f",val), Toast.LENGTH_SHORT).show();
 
 
     }
